@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    height: 90px;
+    line-height: 90px;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+nav ul a {
+    font-size: 1.6em;
+    font-family: Roboto;
+    color: white;
+    transition: all 0.3s;
+}
+
+nav ul a:hover {
+    background-color: transparent;
+    color: #237bce
+}
+
+.important {
+    font-size: 1.7em;
+}
+
+nav .brand-logo {
+    padding-left: 120px;
+}
+
+header {
+    background: url("../img/LA_Wallpaper.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    height: 100vh;
+    margin-top: -90px;
+}
+
+.index-info {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.time {
+    font-size: 75px;
+    color: white;
+}
+
+.meteo {
+    text-align: center;
+}
+
+.content {
+    height: 1500px;
+}
+
+#down-arrow {
+    position: relative;
+    top: 95%;
+    left: 50%;
+    transform: translate(-95%, -50%);
+}
